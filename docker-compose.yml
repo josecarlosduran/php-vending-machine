@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+
+  php:
+    container_name: php-vending-machine
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "9090:9001"
+    volumes:
+      - .:/app:delegated
+

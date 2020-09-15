@@ -1,0 +1,38 @@
+{
+    "name": "jcduran/php-vendingmachine",
+    "description": "Vending Machine example in php.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jose Carlos Duran Alcantara",
+            "homepage": "https://github.com/josecarlosduran/php-vending-machine",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "ext-xdebug": "*",
+        "phpunit/phpunit": "^8.2",
+        "mockery/mockery": "^1.2",
+        "fzaninotto/faker": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "jcduran\\VendingMachine\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "jcduran\\VendingMachineTest\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "optimize-autoloader": true
+    },
+    "prefer-stable": true
+
+}
