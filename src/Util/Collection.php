@@ -22,6 +22,12 @@ abstract class Collection implements Countable, IteratorAggregate
 
     abstract protected function type(): string;
 
+    public function refreshItems(array $items) : void
+    {
+        $this->items = $items;
+    }
+
+
     public function getIterator()
     {
         return new ArrayIterator($this->items());

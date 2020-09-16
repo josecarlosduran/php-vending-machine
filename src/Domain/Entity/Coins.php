@@ -8,16 +8,11 @@ namespace jcduran\VendingMachine\Domain\Entity;
 
 use jcduran\VendingMachine\Util\Collection;
 
-final class AvailableChange extends Collection
+final class Coins extends Collection
 {
 
     protected function type(): string
     {
         return Coin::class;
-    }
-
-    public function recharge(Coins $coins)
-    {
-
     }
 }

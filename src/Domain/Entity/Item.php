@@ -19,14 +19,38 @@ final class Item
         $this->selector = $selector;
     }
 
-    public static function create (float $price, string $selector) : self
+    public static function create (int $count, float $price, string $selector) : self
     {
-        return new self(0,$price,$selector);
+        return new self($count,$price,$selector);
     }
 
-    public function replenish (float $count) : void
+    public function replenish (int $count) : void
     {
         $this->count = $this->count + $count;
     }
+    public function changePrice (float $newPrice) : void
+    {
+        $this->price = $newPrice;
+    }
 
-}
+    public function count(): int
+    {
+        return $this->count;
+    }
+
+    public function price(): float
+    {
+        return $this->price;
+    }
+
+    public function selector(): string
+    {
+        return $this->selector;
+    }
+
+
+
+
+
+
+    }
