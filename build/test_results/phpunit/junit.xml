@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="phpBootstrap" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.046842">
-    <testsuite name="jcduran\VendingMachineTest\Application\ServiceModeTest" file="/app/tests/Application/ServiceModeTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.044773">
-      <testcase name="shouldRechargeItemsInAEmptyMachine" class="jcduran\VendingMachineTest\Application\ServiceModeTest" classname="jcduran.VendingMachineTest.Application.ServiceModeTest" file="/app/tests/Application/ServiceModeTest.php" line="19" assertions="1" time="0.037298"/>
-      <testcase name="shouldRechargeItems" class="jcduran\VendingMachineTest\Application\ServiceModeTest" classname="jcduran.VendingMachineTest.Application.ServiceModeTest" file="/app/tests/Application/ServiceModeTest.php" line="31" assertions="1" time="0.007475"/>
+  <testsuite name="phpBootstrap" tests="5" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.070635">
+    <testsuite name="jcduran\VendingMachineTest\Application\ServiceModeTest" file="/app/tests/Application/ServiceModeTest.php" tests="4" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.067541">
+      <testcase name="shouldRechargeItemsInAEmptyMachine" class="jcduran\VendingMachineTest\Application\ServiceModeTest" classname="jcduran.VendingMachineTest.Application.ServiceModeTest" file="/app/tests/Application/ServiceModeTest.php" line="23" assertions="1" time="0.040832"/>
+      <testcase name="shouldRechargeItems" class="jcduran\VendingMachineTest\Application\ServiceModeTest" classname="jcduran.VendingMachineTest.Application.ServiceModeTest" file="/app/tests/Application/ServiceModeTest.php" line="38" assertions="1" time="0.008134"/>
+      <testcase name="shouldRechargeCoinsInAEmptyMachine" class="jcduran\VendingMachineTest\Application\ServiceModeTest" classname="jcduran.VendingMachineTest.Application.ServiceModeTest" file="/app/tests/Application/ServiceModeTest.php" line="65" assertions="1" time="0.010479"/>
+      <testcase name="shouldRechargeCoins" class="jcduran\VendingMachineTest\Application\ServiceModeTest" classname="jcduran.VendingMachineTest.Application.ServiceModeTest" file="/app/tests/Application/ServiceModeTest.php" line="78" assertions="1" time="0.008096"/>
     </testsuite>
-    <testsuite name="jcduran\VendingMachineTest\ExampleTest" file="/app/tests/ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.002069">
-      <testcase name="shouldSayHelloWhenGreeting" class="jcduran\VendingMachineTest\ExampleTest" classname="jcduran.VendingMachineTest.ExampleTest" file="/app/tests/ExampleTest.php" line="26" assertions="1" time="0.002069"/>
+    <testsuite name="jcduran\VendingMachineTest\ExampleTest" file="/app/tests/ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.003094">
+      <testcase name="shouldSayHelloWhenGreeting" class="jcduran\VendingMachineTest\ExampleTest" classname="jcduran.VendingMachineTest.ExampleTest" file="/app/tests/ExampleTest.php" line="26" assertions="1" time="0.003094"/>
     </testsuite>
   </testsuite>
 </testsuites>
